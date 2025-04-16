@@ -1,4 +1,4 @@
-public class BFS(){
+public class BFS{
     public void bfs(char[][] grid, int row, int col, int[][] direction){
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[] {row,col});
